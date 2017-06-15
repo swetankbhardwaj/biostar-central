@@ -36,7 +36,7 @@ def json_response(f):
         return response
     return to_json
 
-
+'''
 @json_response
 def traffic(request):
     """
@@ -56,7 +56,7 @@ def traffic(request):
         'post_views_last_60_min': post_views,
     }
     return data
-
+'''
 
 @json_response
 def user_details(request, id):
